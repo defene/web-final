@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.manifest
+*.spec
+.Python
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+ENV/
+.env.local
+.env.*.local
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Data and cache (uncomment if needed)
+# data/
+# data/indices/
+# data/processed/
+*.pkl
+
+# Model files (large binary files)
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+.tmp/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# mypy
+.mypy_cache/
+
+# Ruff/Linting
+.ruff_cache/
